@@ -1,0 +1,58 @@
+import { Project } from './types';
+
+export const projects: Project[] = [
+  {
+    id: 'proj-1',
+    title: 'CloudSync API Gateway',
+    description: 'High-performance API gateway with rate limiting, caching, real-time analytics, and JWT authentication. Designed for horizontal scaling with Kubernetes.',
+    techStack: ['Go', 'Redis', 'PostgreSQL', 'Docker', 'Kubernetes', 'Prometheus'],
+    githubUrl: 'https://github.com/navinshankar/cloudsync-gateway',
+    image: '/projects/api-gateway.png',
+    category: 'backend',
+  },
+  {
+    id: 'proj-2',
+    title: 'DevFlow CLI',
+    description: 'Developer productivity CLI tool for automating Git workflows, environment management, database migrations, and project scaffolding with a plugin system.',
+    techStack: ['Rust', 'SQLite', 'Shell', 'GitHub API'],
+    githubUrl: 'https://github.com/navinshankar/devflow-cli',
+    image: '/projects/cli-tool.png',
+    category: 'devops',
+  },
+  {
+    id: 'proj-3',
+    title: 'RealTime Dashboard',
+    description: 'Full-stack analytics dashboard with real-time WebSocket streaming, interactive D3.js visualizations, and customizable widgets for data monitoring.',
+    techStack: ['React', 'TypeScript', 'D3.js', 'Node.js', 'WebSocket', 'TimescaleDB'],
+    githubUrl: 'https://github.com/navinshankar/realtime-dashboard',
+    image: '/projects/dashboard.png',
+    category: 'fullstack',
+  },
+  {
+    id: 'proj-4',
+    title: 'Distributed Task Queue',
+    description: 'Scalable distributed task queue with priority scheduling, automatic retries, exponential backoff, dead-letter queues, and a monitoring web UI.',
+    techStack: ['Python', 'Redis', 'RabbitMQ', 'FastAPI', 'Docker'],
+    githubUrl: 'https://github.com/navinshankar/task-queue',
+    image: '/projects/task-queue.png',
+    category: 'backend',
+  },
+  {
+    id: 'proj-5',
+    title: 'Schema Forge',
+    description: 'Database schema migration tool with automatic migration generation, version control integration, safe rollbacks, and multi-database support.',
+    techStack: ['TypeScript', 'Node.js', 'PostgreSQL', 'MySQL', 'SQLite'],
+    githubUrl: 'https://github.com/navinshankar/schema-forge',
+    image: '/projects/schema-tool.png',
+    category: 'devops',
+  },
+  {
+    id: 'proj-6',
+    title: 'Component Library',
+    description: 'Production-ready React component library with 40+ accessible components, comprehensive theming, dark mode, and interactive Storybook docs.',
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Storybook', 'Radix UI'],
+    githubUrl: 'https://github.com/navinshankar/component-lib',
+    image: '/projects/components.png',
+    category: 'frontend',
+  },
+];
