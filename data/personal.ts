@@ -10,7 +10,7 @@ export const personalInfo: PersonalInfo = {
   modern web technologies.`,
   email: 'navin@example.com',
   location: 'San Francisco, CA',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/Portfolio/resume.pdf',
   socials: [
     {
       name: 'GitHub',

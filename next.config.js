@@ -5,9 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // For GitHub Pages deployment, set basePath if deploying to username.github.io/repo-name
-  // basePath: '/your-repo-name',
-  // assetPrefix: '/your-repo-name/',
+  basePath: '/Portfolio',
+  assetPrefix: '/Portfolio/',
 };
 
 module.exports = nextConfig;
