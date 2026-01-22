@@ -75,7 +75,7 @@ export default function Navigation() {
 
             {/* Resume Button */}
             <motion.a
-              href="/resume.pdf"
+              href="/Portfolio/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, scale: 0.9 }}
@@ -129,7 +129,7 @@ export default function Navigation() {
                   </motion.a>
                 ))}
                 <a
-                  href="/resume.pdf"
+                  href="/Portfolio/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-2 px-4 py-3 text-center font-medium rounded-xl btn-primary"

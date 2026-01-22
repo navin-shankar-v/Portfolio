@@ -107,7 +107,7 @@ export default function Hero() {
                 Get in Touch
               </motion.a>
               <motion.a
-                href="/resume.pdf"
+                href="/Portfolio/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary"
