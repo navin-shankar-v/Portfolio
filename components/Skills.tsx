@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code, Server, Layout, Database, Cloud, Wrench } from 'lucide-react';
+import { Code, Server, Layout, Database, Cloud, Wrench, Layers } from 'lucide-react';
 import { skillCategories } from '@/data/skills';
 
 const iconMap = {
@@ -11,6 +11,7 @@ const iconMap = {
   database: Database,
   cloud: Cloud,
   wrench: Wrench,
+  layers: Layers,
 };
 
 const containerVariants = {

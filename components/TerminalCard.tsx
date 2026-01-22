@@ -6,8 +6,9 @@ import { useEffect, useState } from 'react';
 const commands = [
   { prompt: '~', command: 'whoami', output: 'navin.shankar' },
   { prompt: '~', command: 'cat skills.txt', output: 'TypeScript, Python, Go, React, Node.js...' },
-  { prompt: '~', command: 'echo $CURRENT_ROLE', output: 'Senior Software Engineer @ TechCorp' },
-  { prompt: '~', command: 'ls projects/', output: 'api-gateway/  cli-tools/  dashboard/  ...' },
+  { prompt: '~', command: 'ls experience/', output: '2022-2023: Software Engineer @ Viatore Solutions' },
+  { prompt: '~', command: 'ls projects/', output: 'Research Summarizer, LabelFlow AI, HashtagHolidays' },
+ 
 ];
 
 export default function TerminalCard() {
