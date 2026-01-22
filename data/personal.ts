@@ -3,18 +3,18 @@ import { PersonalInfo } from './types';
 export const personalInfo: PersonalInfo = {
   name: 'Navin Shankar',
   role: 'Software Engineer',
-  tagline: 'Building scalable systems & delightful interfaces',
-  bio: `Full-stack engineer with a passion for building high-performance applications 
-  and developer tools. I specialize in distributed systems, API design, and creating 
-  seamless user experiences. Currently focused on cloud-native architectures and 
-  modern web technologies.`,
+  tagline: 'Building scalable backend systems & high-performance APIs',
+  bio: `Software engineer with hands-on experience building backend services, 
+  optimizing API performance, and deploying production systems on AWS. 
+  I specialize in Python, FastAPI, and distributed systems, with a focus on 
+  reliability, observability, and clean architecture.`,
   email: 'navin@example.com',
-  location: 'San Francisco, CA',
+  location: 'California, USA',
   resumeUrl: '/Portfolio/resume.pdf',
   socials: [
     {
       name: 'GitHub',
-      url: 'https://github.com/navinshankar',
+      url: 'https://github.com/navin-shankar-v',
       icon: 'github',
     },
     {
@@ -22,11 +22,5 @@ export const personalInfo: PersonalInfo = {
       url: 'https://linkedin.com/in/navinshankar',
       icon: 'linkedin',
     },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/navinshankar',
-      icon: 'twitter',
-    },
   ],
 };
-
