@@ -8,22 +8,16 @@ export const skillCategories: SkillCategory[] = [
     skills: ['Python', 'Go', 'Java', 'JavaScript', 'TypeScript', 'SQL'],
   },
   {
-    id: 'frameworks',
-    name: 'Frameworks',
-    icon: 'layers',
-    skills: ['React', 'Angular', 'Django'],
-  },
-  {
     id: 'backend',
     name: 'Backend & APIs',
     icon: 'server',
-    skills: ['FastAPI', 'Flask', 'Spring Boot', 'Node.js', 'REST APIs'],
+    skills: ['FastAPI', 'Flask', 'Django', 'Spring Boot', 'Node.js', 'REST APIs'],
   },
   {
     id: 'frontend',
     name: 'Frontend',
     icon: 'layout',
-    skills: ['HTML/CSS', 'Tailwind CSS'],
+    skills: ['React', 'Angular', 'HTML/CSS', 'Tailwind CSS', 'Bootstrap'],
   },
   {
     id: 'databases',

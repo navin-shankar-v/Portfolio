@@ -1,7 +1,7 @@
 import { PersonalInfo } from './types';
 
 export const personalInfo: PersonalInfo = {
-  name: 'Navin Shankar',
+  name: 'NavinShankar',
   role: 'Software Engineer',
   tagline: 'Building scalable backend systems & high-performance APIs',
   bio: `Software engineer with hands-on experience building backend services, 
