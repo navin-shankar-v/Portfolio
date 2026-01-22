@@ -8,7 +8,7 @@ export const personalInfo: PersonalInfo = {
   optimizing API performance, and deploying production systems on AWS. 
   I specialize in Python, FastAPI, and distributed systems, with a focus on 
   reliability, observability, and clean architecture.`,
-  email: 'navin@example.com',
+  email: 'gvnavinshankar@gmail.com',
   location: 'California, USA',
   resumeUrl: '/Portfolio/resume.pdf',
   socials: [
@@ -19,7 +19,7 @@ export const personalInfo: PersonalInfo = {
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/navinshankar',
+      url: 'https://linkedin.com/in/navinshankar-gv',
       icon: 'linkedin',
     },
   ],
