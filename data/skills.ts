@@ -29,12 +29,12 @@ export const skillCategories: SkillCategory[] = [
     id: 'cloud',
     name: 'Cloud & DevOps',
     icon: 'cloud',
-    skills: ['AWS (EC2, RDS, Lambda)', 'Docker', 'CI/CD', 'Linux'],
+    skills: ['AWS (EC2, ECS, ECR, SQS, S3, RDS, Lambda)', 'Docker', 'Kubernetes', 'Terraform', 'CI/CD', 'Linux'],
   },
   {
     id: 'tools',
     name: 'Tools & Practices',
     icon: 'wrench',
-    skills: ['Git', 'OAuth 2.0', 'OpenAI API', 'DialogFlow', 'Agile'],
+    skills: ['Git', 'Github Actions', 'OpenAI API', 'DialogFlow', 'Agile', 'Typesense'],
   },
 ];
