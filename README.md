@@ -1,8 +1,10 @@
+#Portfolio Link - https://navin-shankar-v.github.io/Portfolio/
+
 # Software Engineer Portfolio
 
 A modern, motion-rich portfolio website built with Next.js, TypeScript, Tailwind CSS, and Framer Motion. Features glassmorphism design, animated timeline experience section, and full GitHub Pages compatibility.
 
-![Portfolio Preview](./public/preview.png)
+
 
 ## ✨ Features
 
